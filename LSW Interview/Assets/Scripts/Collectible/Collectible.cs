@@ -141,7 +141,7 @@ public class Collectible : MonoBehaviour
                     if (CurrentRebornTime <= TimeToReborn)
                     {
                         CurrentRebornTime = 0;
-                        TimeToReborn = 180;
+                        TimeToReborn = 30;
                         Collectiblebutton.SetActive(true);
                         availableToCollect = true;
                         Reborn = false;

@@ -25,6 +25,9 @@ public class PlayerControl : MonoBehaviour
 
     public Collectible TempCollectible;
 
+    private bool firstClick;
+    [SerializeField] private GameObject InitialInstruction;
+
     private void Start()
     {
         Player = GetComponent<NavMeshAgent>();
@@ -53,7 +56,7 @@ public class PlayerControl : MonoBehaviour
 
         MovePlayer(xPos ,yPos);
       
-        Debug.Log("Pressed");
+        if (!firstClick) { InitialInstruction.SetActive(false); firstClick = true; }
     }
     private void LateUpdate()
     {

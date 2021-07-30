@@ -50,7 +50,7 @@ MonoBehaviour:
   currentCollectiblePrefab: {fileID: 5977746293910656711, guid: 38f83eca81b40734fa9ad3b52b85de07, type: 3}
   ClickTo: {fileID: 6550226175876501168}
   TimeToCollect: 5
-  TimeToReborn: 15
+  TimeToReborn: 30
   Collectiblebutton: {fileID: 6550226175825307100}
   regawardCollected: 20
   availableToCollect: 1
@@ -100,12 +100,12 @@ Transform:
   m_GameObject: {fileID: 6550226175651878246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.2, y: 0.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
+  - {fileID: 6550226176835915923}
   - {fileID: 6550226176190908685}
   - {fileID: 6550226177422021644}
   - {fileID: 6550226175876501172}
-  - {fileID: 6550226176835915923}
   m_Father: {fileID: 927805463017789508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15}
@@ -128,7 +128,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -146,8 +146,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -210258157
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1fbf81be8a745ad4cbb6229eedb466bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -338,7 +338,7 @@ RectTransform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 6550226175651878244}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -491,7 +491,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 6550226175651878244}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6550226176835915932
 GameObject:
@@ -525,7 +525,7 @@ RectTransform:
   m_Children:
   - {fileID: 6550226175825307091}
   m_Father: {fileID: 6550226175651878244}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -550,8 +550,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -210258157
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &6550226176835915921
 MonoBehaviour:
@@ -620,5 +620,5 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 6550226175651878244}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
