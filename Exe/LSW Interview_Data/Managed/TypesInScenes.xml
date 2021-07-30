@@ -104,6 +104,7 @@
 		<type fullname="UnityEngine.Experimental.Rendering.Universal.Light2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Experimental.Rendering.Universal.Renderer2DData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
