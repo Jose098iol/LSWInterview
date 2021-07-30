@@ -124,7 +124,7 @@ public class Skin : MonoBehaviour
         else
         {
             showBuyedUI();
-
+            PlayerItems.buySkin(skinPrice);
             SkinsPanel.RestartButtons();
         }
     }

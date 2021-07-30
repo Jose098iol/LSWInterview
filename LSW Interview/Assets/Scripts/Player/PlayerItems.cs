@@ -109,6 +109,12 @@ public class PlayerItems : MonoBehaviour
 
         updateGold();
     }
+    public void buySkin(int priceSkin)
+    {
+        Gold -= priceSkin;
+
+        updateGold();
+    }
     private void updateGold()
     {
         PlayerPrefs.SetInt("currentGold", Gold);
